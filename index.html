@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="이제 공감드라이브와 함께 운전의 자신감을 찾으세요!">
+    
+    <meta property="og:title" content="공감드라이브">
+    <meta property="og:description" content="이제 공감드라이브와 함께 운전의 자신감을 찾으세요!">
+    <meta property="og:image" content="/img/banner.jpg">
+
+    <title>공감드라이브</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+    <link rel="manifest" href="/fav/site.webmanifest">
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#ffa400">
+    <meta name="msapplication-TileColor" content="#ffa400">
+    <meta name="theme-color" content="#ffffff">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/contact.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <a href="index.html" class="logo">공감드라이브</a>
+
+            <input type="checkbox" id="menu-bar">
+            <label class="menu" for="menu-bar">
+                <img src="img/ic_menu_wl.png" alt="메뉴 버튼">
+            </label>
+
+            <nav class="navbar">
+                <ul class="sub-1">
+                    <li><a href="greeting.html">인사말</a></li>
+                    <li><a href="#">연수소개</a>
+                        <ul class="sub-2">
+                            <li><a href="process.html">연수과정</a></li>
+                            <li><a href="pricing.html">연수비용</a></li>
+                            <li><a href="location.html">연수지역</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="review.html">고객후기</a></li>
+                    <li><a href="contact.html">신청하기</a></li>
+                    <li><a href="faq.html">자주하는질문</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-banner">
+        <div class="section-wrapper">
+            <div class="a-wrapper">
+                <a href="process.html">연수과정</a>
+                <a href="pricing.html">연수비용</a>
+                <a href="location.html">연수지역</a>
+                <a href="review.html">고객후기</a>
+            </div>
+            <h1>이제 <span>공감드라이브</span>와 함께 <br><span>운전의 자신감</span>을 찾으세요</h1>
+            <div class="btn-wrapper">
+                <a href="tel:1666-6294" target="_blank">
+                    <div>
+                        <img src="img/ic_phone_wl.png" alt="전화 상담하기">
+                        <p>전화 상담하기</p>
+                    </div>
+                </a>
+                <a href="http://pf.kakao.com/_hCrQxj/chat" target="_blank">
+                    <div>
+                        <img src="img/ic_talk_wl.png" alt="카톡 상담하기">
+                        <p>카톡 상담하기</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="introduction">
+        <div class="section-wrapper">
+            <h2>왜 <span>공감드라이브</span>인가요?</h2>
+            <h3>고객님이 운전에 자신감을 가질 수 있도록 <br>체계적인 운전 연수를 제공합니다</h3>
+            <div class="introduction-items">
+                <a href="process.html">
+                    <div class="introduction-item">
+                        <img src="img/introduction_1.jpg" alt="기본 소개 이미지">
+                        <div>
+                            <h4>연수 과정</h4>
+                            <p>4일반 / 3일반 중 택 1 <br>평일과 주말 모두 가능</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="pricing.html">
+                    <div class="introduction-item">
+                        <img src="img/introduction_2.jpg" alt="기본 소개 이미지">
+                        <div>
+                            <h4>연수 비용</h4>
+                            <p>세단 / SUV 중 택 1 <br>자기차량 / 회사차량 가능</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="location.html">
+                    <div class="introduction-item">
+                        <img src="img/introduction_3.jpg" alt="기본 소개 이미지">
+                        <div>
+                            <h4>연수지역</h4>
+                            <p>서울특별시에서부터<br>경기도와 인천광역시까지</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="hidden-introduction" href="contact.html">
+                    상담 신청하기 →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review">
+        <div class="section-wrapper">
+            <h2>고객님들의 <span>솔직 후기</span></h2>
+            <div class="review-items">
+                <div class="review-col-1">
+                    <img src="img/review_1.jpg" alt="운전 연수 이미지">
+                    <div class="review-item">
+                        <div class="review-profile">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>평일 4일반</p>
+                                <p>장OO 고객님</p>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>장롱 면허는 이제 그만~</p>
+                            <p>면허 취득한 지 거의 7~8년은 지난 것 같네요. 그동안 제대로된 운전은 한번도 안 해봤는데 이번에 이직하는 회사에 통근을 하려면 차가 필요해서 부랴부랴 운전 연수를 알아봤어요.
+                                <br><br>연수 동안 저는 제 출퇴근길을 중점적으로 운전 코스로 정해서 연수를 받았어요. 강사님께서 친절하게 설명해주셔서 정말 많이 배웠어요. 감사합니다!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-profile">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>주말 3일반</p>
+                                <p>최OO 고객님</p>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>운전 생각보다 쉬운거였네요?</p>
+                            <p>면허 딴 지는 15년 되었는데 그동안 운전다운 운전은 못한 장롱면허 초보운전이예요. 주변에서 운전은 감이다, 경험이다 이야기하는데 왕초보인 저한테 그게 쉽나요 ㅠ
+                                <br><br>강사님께서 세세한 부분 하나하나까지 왕초보인 저의 눈높이에 맞게 이해를 시켜주시더라구요. 특히 소름돋은 건 주차 공식과 차선변경 공식! 이거 하나 깨닫고 나니까 도로가 다르게 보이는 거 있죠?
+                                <br><br>진짜 진짜 감사합니다ㅠ 이제 운전대 잡는게 어렵지가 않아요 ㅋㅋㅋ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-col-2">
+                    <img src="img/review_2.jpg" alt="운전 연수 이미지">
+                    <div class="review-item">
+                        <div class="review-profile">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>평일 3일반</p>
+                                <p>김OO 고객님</p>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>두려움이 이제는 없어졌어요</p>
+                            <p>운전 연수를 받기 전에는 정말로 운전을 두려워했어요. 사고난 적은 없지만 면허를 따고 나서 제대로 운전해본 적이 없어서 그런지 계속 두려움이 앞서더라고요...
+                                <br><br>하지만 연수를 통해 전문적인 도움을 받으면서 확실히 자신감이 생긴 것 같아요! 강사님께서 친절하게 가르쳐주시기도 했고, 도로 주행을 계속 하니까 자신감이 붙는 것 같아요.
+                                <br><br>혼자서 운전하는 것보다 누군가가 옆에서 봐주면서 운전할 수 있다는 점이 정말 도움이 되었어요.</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-profile">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>주말 4일반</p>
+                                <p>조OO 고객님</p>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>너무 너무 만족하고 있습니다</p>
+                            <p>연수 받은지 이제 거의 보름이 지났네요. 엄마들이랑 예쁜 카페도 가고, 대형마트에서 왕창 장을 보기도 하고 정말 운전을 할 줄 안다는게 삶을 다르게 만들더라고요.
+                                <br><br>정말 늦게라도 용기내서 연수 받은게 만족스러워요! 건강하시고 행복하세요~</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-col-3">
+                    <img src="img/review_3.jpg" alt="운전 연수 이미지">
+                    <div class="review-item">
+                        <div class="review-profile">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>주말 3일반</p>
+                                <p>김OO 고객님</p>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>남자도 운전 연수는 필수!</p>
+                            <p>남자라서 운전 연수 받는게 부끄럽기도 했는데, 정작 제가 운전을 제대로 할 줄 모르니까 걱정이 되더라고요. 그래서 연수 신청했습니다.
+                                <br><br>강사님이 진짜 좋은 분이었어요. 긴장 풀 수 있게 계속 재밌게 말씀해주셔서 운전하는 저도 마음이 편했네요. 덕분에 잘 배우고 갑니다!</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-profile">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>주말 3일반</p>
+                                <p>박OO 고객님</p>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>가족 여행, 제가 운전합니다</p>
+                            <p>매번 운전은 남편의 몫이었는데, 이번에 큰 마음먹고 저도 배워봤어요. 원래 남편한테 배우려고 했는데 가족한테 운전은 배우는게 아니라잖아요? ㅎ
+                                <br><br>담당 강사님께서 엄청 친절하고 좋은 말씀도 많이 해주셨어요. 그래서 저도 긴장 하나도 안 하고 부담없이 잘 배웠던 거 같아요.
+                                <br><br>연수 끝나고 집 주변 마트 가거나 할 때 제가 운전했는데 남편이 이제 그냥 운전하면 되겠다~ 이래서 이번 가족여행은 제가 운전해서 떠나요.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="review.html">고객님들의 후기를 직접 살펴보세요 →</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="section-wrapper">
+            <div class="contact-info">
+                <h2>상담 신청하기</h2>
+                <h3>양식을 작성하여 보내주시면, <br>확인 후 빠르게 회신드리겠습니다</h3>
+                <div>
+                    <img src="img/ic_phone_hl.png" alt="전화 상담하기">
+                    <a href="tel:1666-6294" target="_blank">1666-6294</a>
+                </div>
+                <div>
+                    <img src="img/ic_talk_hl.png" alt="카톡 상담하기">
+                    <a href="http://pf.kakao.com/_hCrQxj/chat" target="_blank">카카오톡 채널</a>
+                </div>
+            </div>
+            <form id="form">
+                <div class="field">
+                    <label for="name">1. 고객명</label>
+                    <input type="text" name="name" id="name" placeholder="고객님의 이름을 입력해주세요">
+                </div>
+                <div class="field">
+                    <label for="type">2. 지역 및 차량</label>
+                    <input type="text" name="type" id="type" placeholder="예&#41; 서울/자기차량(SUV)">
+                </div>
+                <div class="field">
+                    <label for="desc">3. 문의내용</label>
+                    <textarea style="resize: none;" name="desc" id="desc" placeholder="예&#41; 운전면허 따고 5년이나 지난 장롱면허입니다."></textarea>
+                </div>
+                <div class="field">
+                    <label for="phone">4. 전화번호</label>
+                    <input type="text" name="phone" id="phone" placeholder="연락을 받으실 고객님의 전화번호를 입력해주세요">
+                </div>
+                <div class="field">
+                    <input type="checkbox" name="privacy" id="privacy" checked>
+                    <label for="privacy">개인정보 처리방침에 동의합니다</label>
+                </div>
+                <p>(목적) 상담 | (항목) 고객명, 전화번호 | (보유 및 이용기간) 최초 동의 시로부터 6개월</p>
+                <input type="submit" id="button" value="문의 보내기 →" >
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <a href="index.html" class="logo">공감드라이브</a>
+            <p>고객센터 : 1666-6294 (매일 9시~21시 상담가능)<br>Copyright 공감드라이브. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a class="fixed-btn" href="http://pf.kakao.com/_hCrQxj/chat" target="_blank">
+        <div>
+            <img src="img/ic_talk_wl.png" alt="카톡 상담하기">
+            <p>카카오톡 채널</p>
+        </div>
+    </a>
+
+    <a class="fixed-btn" href="tel:1666-6294" target="_blank">
+        <div>
+            <img src="img/ic_phone_wl.png" alt="전화 상담하기">
+            <p>1666-6294</p>
+        </div>
+    </a>
+
+</body>
+</html>

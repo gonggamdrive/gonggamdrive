@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="이제 공감드라이브와 함께 운전의 자신감을 찾으세요!">
+    
+    <meta property="og:title" content="공감드라이브">
+    <meta property="og:description" content="이제 공감드라이브와 함께 운전의 자신감을 찾으세요!">
+    <meta property="og:image" content="/img/banner.jpg">
+
+    <title>공감드라이브</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+    <link rel="manifest" href="/fav/site.webmanifest">
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#ffa400">
+    <meta name="msapplication-TileColor" content="#ffa400">
+    <meta name="theme-color" content="#ffffff">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"/>
+
+    <link rel="stylesheet" href="css/sub.css">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/contact.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <a href="index.html" class="logo">공감드라이브</a>
+
+            <input type="checkbox" id="menu-bar">
+            <label class="menu" for="menu-bar">
+                <img src="img/ic_menu_wl.png" alt="메뉴 버튼">
+            </label>
+
+            <nav class="navbar">
+                <ul class="sub-1">
+                    <li><a href="greeting.html">인사말</a></li>
+                    <li><a href="#">연수소개</a>
+                        <ul class="sub-2">
+                            <li><a href="process.html">연수과정</a></li>
+                            <li><a href="pricing.html">연수비용</a></li>
+                            <li><a href="location.html">연수지역</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="review.html">고객후기</a></li>
+                    <li><a href="contact.html">신청하기</a></li>
+                    <li><a href="faq.html">자주하는질문</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="sub-banner">
+        <div class="section-wrapper">
+            <h1>신청하기</h1>
+            <hr>
+            <h2>공감드라이브는 언제나 상담을 환영합니다</h2>
+        </div>
+    </section>
+
+    <div class="line-banner">
+        <div class="section-wrapper">
+            신청하기<span>&nbsp;&nbsp;|&nbsp;&nbsp;공감드라이브</span>    
+        </div>
+    </div>
+
+    <section class="contact sub-section">
+        <div class="section-wrapper">
+            <div class="contact-info">
+                <h3 class="sub-emoji">📬</h3>
+                <h2 class="sub-title"><span>상담 신청하기</span></h2>
+                <div>
+                    <img src="img/ic_phone_hl.png" alt="전화 상담하기">
+                    <a href="tel:1666-6294" target="_blank">1666-6294</a>
+                </div>
+                <div>
+                    <img src="img/ic_talk_hl.png" alt="카톡 상담하기">
+                    <a href="http://pf.kakao.com/_hCrQxj/chat" target="_blank">카카오톡 채널</a>
+                </div>
+            </div>
+            <form id="form">
+                <div class="field">
+                    <label for="name">1. 고객명</label>
+                    <input type="text" name="name" id="name" placeholder="고객님의 이름을 입력해주세요">
+                </div>
+                <div class="field">
+                    <label for="type">2. 지역 및 차량</label>
+                    <input type="text" name="type" id="type" placeholder="예&#41; 서울/자기차량(SUV)">
+                </div>
+                <div class="field">
+                    <label for="desc">3. 문의내용</label>
+                    <textarea style="resize: none;" name="desc" id="desc" placeholder="예&#41; 운전면허 따고 5년이나 지난 장롱면허입니다."></textarea>
+                </div>
+                <div class="field">
+                    <label for="phone">4. 전화번호</label>
+                    <input type="text" name="phone" id="phone" placeholder="연락을 받으실 고객님의 전화번호를 입력해주세요">
+                </div>
+                <div class="field">
+                    <input type="checkbox" name="privacy" id="privacy" checked>
+                    <label for="privacy">개인정보 처리방침에 동의합니다</label>
+                </div>
+                <p>(목적) 상담 | (항목) 고객명, 전화번호 | (보유 및 이용기간) 최초 동의 시로부터 6개월</p>
+                <input type="submit" id="button" value="문의 보내기 →" >
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <a href="index.html" class="logo">공감드라이브</a>
+            <p>고객센터 : 1666-6294 (매일 9시~21시 상담가능)<br>Copyright 공감드라이브. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a class="fixed-btn" href="http://pf.kakao.com/_hCrQxj/chat" target="_blank">
+        <div>
+            <img src="img/ic_talk_wl.png" alt="카톡 상담하기">
+            <p>카카오톡 채널</p>
+        </div>
+    </a>
+
+    <a class="fixed-btn" href="tel:1666-6294" target="_blank">
+        <div>
+            <img src="img/ic_phone_wl.png" alt="전화 상담하기">
+            <p>1666-6294</p>
+        </div>
+    </a>
+</body>
+</html>
